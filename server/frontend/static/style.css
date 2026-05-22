@@ -118,7 +118,7 @@ img{
 .img_icon {
   align-self: center;
     width:40px;
-    background-color:#0C9;
+    background-color:rgba(204, 0, 194, 0.89);
     color:#FFF;
     border-radius:50px;
     text-align:center;
