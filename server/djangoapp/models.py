@@ -29,9 +29,9 @@ class CarMake(models.Model):
 # - __str__ method to print a car make object
 class CarModel(models.Model):
     CHOICES = [
-      ('sedan', 'sedan'),
-      ('suv', 'suv'),
-      ('wagon', 'wagon')
+      ('SEDAN', 'Sedan'),
+      ('SUV', 'Suv'),
+      ('WAGON', 'Wagon')
     ]
     car_make = models.ForeignKey(CarMake, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
