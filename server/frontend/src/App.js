@@ -6,7 +6,8 @@ function App() {
   return (
     <Routes>
       <Route path="/login" element={<LoginPanel />} />
-      <Route path="dealers" element={<Dealers/>}/>
+      <Route path="/dealers" element={<Dealers/>}/>
+      <Route path="/dealer/:id" element={<Dealers/>}/>
     </Routes>
   );
 }
